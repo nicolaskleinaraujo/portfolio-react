@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(to right bottom, #212226, #3E4F59, #568C73);
+    height: 94vh;
+}
+
+.header h1 {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 6.5em;
+    color: white;
+}
