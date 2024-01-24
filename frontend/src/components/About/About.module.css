@@ -1,0 +1,26 @@
+.socials {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.socials img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.socials ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+.socials a {
+    text-decoration: none;
+    color: black;
+}
+
+.text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5em;
+}
