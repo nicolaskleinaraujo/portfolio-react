@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from "./components/Navbar/Navbar"
 import Header from './components/Header/Header'
 import About from './components/About/About'
+import Abilities from './components/Abilities/Abilities'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Header />
       <About />
+      <Abilities />
     </>
   )
 }
