@@ -1,0 +1,9 @@
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 10px;
+}
