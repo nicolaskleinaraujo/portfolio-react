@@ -1,7 +1,5 @@
 .navbar {
     background-color: #83A672;
-    width: 100%;
-    height: 100%;
 }
 
 .navbar ul {
@@ -11,7 +9,28 @@
     padding: 0.7em;
 }
 
-.navbar li {
-    margin: 10px;
+.navbar .not_img {
+    margin: 7px;
+    padding: 3px;
+    border-radius: 10px;
     font-size: 1.1em;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.navbar .not_img:hover {
+    background-color: #B5D991;
+}
+
+.navbar img {
+    width: 2em;
+    margin: 7px;
+    padding: 3px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.navbar img:hover {
+    background-color: #B5D991;
 }
