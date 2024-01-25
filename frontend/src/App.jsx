@@ -1,10 +1,8 @@
 // CSS
 import './App.css'
 
-// Modules
-import { useContext } from 'react'
-
 // Language Context
+import { useContext } from 'react'
 import { LangContext } from "./context/LangContext"
 
 // Components
