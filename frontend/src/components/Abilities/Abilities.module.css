@@ -13,12 +13,8 @@
     text-align: center;
 }
 
-.javascript img, .html_css img {
+.javascript img, .python img, .html_css img {
     width: 4em;
-}
-
-.python img {
-    width: 3.9em;
 }
 
 .javascript p, .python p {

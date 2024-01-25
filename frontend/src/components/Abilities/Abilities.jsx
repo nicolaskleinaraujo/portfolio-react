@@ -13,7 +13,7 @@ const Abilities = () => {
 
         <div className={styles.html_css}>
             <p>HTML e CSS são as principais linguagens que eu utilizo para estruturar e estilizar meus sites. Utilizo ferramentas como o Figma para uma pré-estruturação dos meus sites.</p>
-            <img src="./logos/html-css-logo.png" alt="Logo HTML e CSS" />
+            <img src="./logos/html-logo.png" alt="Logo HTML e CSS" />
         </div>
 
         <div className={styles.python}>
