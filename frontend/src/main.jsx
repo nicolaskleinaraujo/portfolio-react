@@ -8,8 +8,8 @@ import { LangProvider } from './context/LangContext.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <LangContextProvider>
+    <LangProvider>
       <App />
-    </LangContextProvider>
+    </LangProvider>
   </React.StrictMode>,
 )
