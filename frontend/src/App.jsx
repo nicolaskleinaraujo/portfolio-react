@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar/Navbar"
 import Header from './components/Header/Header'
 import About from './components/About/About'
 import Abilities from './components/Abilities/Abilities'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <About />
       <Abilities />
+      <Footer />
     </>
   )
 }
