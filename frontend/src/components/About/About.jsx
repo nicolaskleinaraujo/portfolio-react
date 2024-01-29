@@ -18,9 +18,9 @@ const About = ({ lang }) => {
         <div className={styles.socials}>
             <img src="./others/my-photo.jpg" alt="Minha foto" />
             <ul>
-                <li><a href="#">Github</a></li>
-                <li><a href="#">Linkedin</a></li>
-                <li><a href="#">Whatsapp</a></li>
+                <li><a href="https://github.com/nicolaskleinaraujo/">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/nicolaskleinaraujo/">Linkedin</a></li>
+                <li><a href="https://wa.me/5544997666224">Whatsapp</a></li>
                 <li>contatonkfa@gmail.com</li>
                 <li>+55 44 99766-6224</li>
             </ul>
