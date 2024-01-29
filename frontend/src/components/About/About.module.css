@@ -1,7 +1,12 @@
+.container {
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    margin-bottom: 3.5em;
+}
+
 .socials {
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
+    float: left;
 }
 
 .socials img {
@@ -14,13 +19,23 @@
     list-style-type: none;
 }
 
+.socials li {
+    padding: 3px;
+}
+
 .socials a {
     text-decoration: none;
     color: black;
+    transition: .2s;
+    padding: 2px;
+    border-radius: 8px;
+}
+
+.socials a:hover {
+    background-color: lightgray;
 }
 
 .text {
-    display: inline-block;
-    vertical-align: middle;
+    margin-top: 7%;
     margin-left: 5em;
 }
