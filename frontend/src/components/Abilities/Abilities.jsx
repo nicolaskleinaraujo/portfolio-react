@@ -4,7 +4,15 @@ import styles from "./Abilities.module.css"
 const Abilities = ({ lang }) => {
   return (
     <div className={styles.abilities}>
-        <h2>Habilidades</h2>
+        {lang === 'br' ? (
+          <>
+            <h2>Habilidades</h2>
+          </>
+        ) : (
+          <>
+            <h2>Abilities</h2>
+          </>
+        )}
 
         <div className={styles.javascript}>
             <img src="./logos/javascript-logo.png" alt="Logo JavaScript" />
