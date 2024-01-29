@@ -4,7 +4,16 @@ import styles from "./About.module.css"
 const About = ({ lang }) => {
   return (
     <div>
-        <h2>Sobre Mim</h2>
+        {lang === "br" ? (
+            <>
+                <h2>Sobre Mim</h2>
+            </>
+        ) : (
+            <>
+                <h2>About Me</h2>
+            </>
+        )}
+        
 
         <div className={styles.socials}>
             <img src="./others/my-photo.jpg" alt="Minha foto" />
