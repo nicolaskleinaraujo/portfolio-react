@@ -2,7 +2,7 @@
 import styles from "./Projects.module.css"
 
 // Modules
-import { Fragment, useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 
 // Projects Data
 import brData from "../../../data/projetos.json"
