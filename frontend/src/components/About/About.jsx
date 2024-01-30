@@ -37,7 +37,6 @@ const About = ({ lang }) => {
                             <li>Estou <strong>cursando Análise e Desenvolvimento de Sistemas</strong>.</li>
                             <li>A principal linguagem que utilizo é o <strong>JavaScript</strong>.</li>
                             <li>Estudo <strong>desenvolvimento web</strong>, utilizo tecnologias como: <strong>Node.js e React</strong>.</li>
-                            <li>Meu principal hobby é jogar, adoro jogos de luta.</li>
                         </>
                     ) : (
                         <>
@@ -47,7 +46,6 @@ const About = ({ lang }) => {
                             <li>I'm <strong>studying Systems Analysis and Development</strong>.</li>
                             <li>The main language I use is <strong>JavaScript</strong>.</li>
                             <li>I study <strong>web development</strong>, I use technologies such as: <strong>Node.js and React</strong>.</li>
-                            <li>My main hobby is to gaming, my favorite genre is fighting.</li>
                         </>
                     )}
                 </ul>
