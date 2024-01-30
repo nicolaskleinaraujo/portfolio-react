@@ -34,3 +34,7 @@
 .navbar img:hover {
     background-color: #B5D991;
 }
+
+.isActive {
+    background-color: #B5D991;
+}

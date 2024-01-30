@@ -18,8 +18,22 @@ const Navbar = ({ lang, setLang }) => {
             <li className={styles.not_img}>Projects</li>
           </>
         )}
-        <li><img src="./others/br-flag.png" alt="Bandeira do Brasil" onClick={() => setLang("br")} /></li>
-        <li><img src="./others/us-flag.png" alt="Bandeira do Brasil" onClick={() => setLang("en")} /></li>
+        <li>
+          <img 
+            src="./others/br-flag.png" 
+            alt="Bandeira do Brasil" 
+            className={lang === "br" && styles.isActive} 
+            onClick={() => setLang("br")} 
+          />
+        </li>
+        <li>
+          <img 
+            src="./others/us-flag.png" 
+            alt="Bandeira do EUA" 
+            className={lang === "en" && styles.isActive}
+            onClick={() => setLang("en")} 
+          />
+        </li>
       </ul>
     </nav>
   )
