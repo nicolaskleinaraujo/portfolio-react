@@ -27,18 +27,18 @@ const Projects = ({ lang }) => {
       )}
 
       {projects.length > 0 && projects.map((project) => (
-        <Fragment key={project.id}>
+        <div key={project.id} className={styles.container}>
           <div className={styles.text}>
             <h3>{project.nome}</h3>
             <p>{project.desc}</p>
-            <button><a href={project.site}>Ver site</a></button>
-            <button><a href={project.codigo}>Ver codigo</a></button>
+            <button><a href={project.site} target="blank">Ver site</a></button>
+            <button><a href={project.codigo} target="blank">Ver codigo</a></button>
           </div>
-          
-          <div className={styles.img}>
-            <img src={project.img} />
+
+          <div>
+            <img src={project.img} className={styles.img} />
           </div>
-        </Fragment>
+        </div>
       ))}
     </div>
   )

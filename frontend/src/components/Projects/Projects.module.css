@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    max-width: 45em;
+    margin: auto;
+    margin-bottom: 3em;
+}
+
+.text {
+    text-align: right;
+    margin-right: 2em;
+}
+
+.text h3 {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.text button {
+    margin-right: 0.2em;
+    border: 1px solid #568C73;
+    border-radius: 10px;
+    padding: 4px;
+    transition: .2s;
+}
+
+.text button:hover {
+    background-color: #83A672;
+}
+
+.text a {
+    text-decoration: none;
+    color: black;
+}
+
+.img {
+    width: 350px;
+    float: right;
+    border: 3px solid #B5D991;
+    border-radius: 10px;
+}
