@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Enxoval feito com React",
-        "desc": "Esse projeto consiste em um enxoval que roda na web, podendo ser acessado em diversos dispositivos. Para a página do projeto eu utilizei React, e a API foi feita utilizando o Node.js. A Aó faz a comunicação entre o banco de dados e a página.",
+        "desc": "Esse projeto consiste em um enxoval que roda na web, podendo ser acessado em diversos dispositivos. Para a página do projeto eu utilizei React, e a API foi feita utilizando o Node.js. A API faz a comunicação entre o banco de dados e a página.",
         "link1": "https://trousseau-project.netlify.app",
         "btn1": "Ver site",
         "link2": "https://github.com/nicolaskleinaraujo/trousseau-project",
