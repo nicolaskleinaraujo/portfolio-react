@@ -4,6 +4,7 @@
     text-align: center;
     background-image: linear-gradient(to right bottom, #212226, #3E4F59, #568C73);
     height: 94vh;
+    box-shadow: 5px 5px 30px -1px rgba(0,0,0,0.61);
 }
 
 .header h1 {
