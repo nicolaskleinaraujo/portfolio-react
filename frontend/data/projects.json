@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "name": "Trousseau made with React",
+        "desc": "This project is a trousseau that runs on the web and can be easily accessed on many devices. For the web page I used React and the API was made using Node.js. The API makes the communication between the web page and the database that stores all the data.",
+        "link1": "https://trousseau-project.netlify.app",
+        "btn1": "See site",
+        "link2": "https://github.com/nicolaskleinaraujo/trousseau-project",
+        "btn2": "See code",
+        "img": "./projects-photos/trousseau-img.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Login Page With Node.js",
+        "desc": "Login screen developed using the framework 'Express' in Node.js for the server and the database of MongoDB to save user data. The website and styling were done using HTML and CSS.",
+        "link2": "https://github.com/nicolaskleinaraujo/node-login",
+        "btn2": "See code",
+        "img": "./projects-photos/node-login-img.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Pomodoro Website",
+        "desc": "Study site that uses the 'Pomodoro' method. Website developed using HTML, CSS and JavaScript. The website consists of a customized timer to improve the effectiveness of your study and a 'To-do' list that helps with scheduling tasks.",
+        "link1": "https://nicolaskleinaraujo.github.io/pomodoro-web/",
+        "btn1": "See site",
+        "link2": "https://github.com/nicolaskleinaraujo/pomodoro-web",
+        "btn2": "See code",
+        "img": "./projects-photos/pomodoro-web-img.jpg"
+    },
+    {
+        "id": 4,
+        "name": "To-do List With Python",
+        "desc": "'To-do' list made using Python. The graphical interface was made using the library 'PyQT' and the data saving was done using the 'Pandas' in a 'csv' file. The 'To-do' list makes it easy to schedule everyday tasks.",
+        "link1": "./others/todolist-app.zip",
+        "btn1": "Download",
+        "link2": "https://github.com/nicolaskleinaraujo/todo-list",
+        "btn2": "See code",
+        "img": "./projects-photos/todo-list-img.jpg"
+    }
+]

@@ -5,14 +5,19 @@ import styles from "./Projects.module.css"
 import { Fragment, useEffect, useState } from "react"
 
 // Projects Data
-import data from "../../../data/projetos.json"
+import brData from "../../../data/projetos.json"
+import enData from "../../../data/projects.json"
 
 const Projects = ({ lang }) => {
   const [projects, setProjects] = useState([])
 
   useEffect(() => {
-    setProjects(data)
-  }, [])
+    if (lang === "br") {
+      setProjects(brData)
+    } else if (lang === "en") {
+      setProjects(enData)
+    }
+  }, [lang])
 
   return (
     <div>
@@ -29,10 +34,12 @@ const Projects = ({ lang }) => {
       {projects.length > 0 && projects.map((project) => (
         <div key={project.id} className={styles.container}>
           <div className={styles.text}>
-            <h3>{project.nome}</h3>
+            <h3>{project.name}</h3>
             <p>{project.desc}</p>
-            <button><a href={project.site} target="blank">Ver site</a></button>
-            <button><a href={project.codigo} target="blank">Ver codigo</a></button>
+            {project.link1 &&
+              <button><a href={project.link1} target="blank">{project.btn1}</a></button>
+            }
+            <button><a href={project.link2} target="blank">{project.btn2}</a></button>
           </div>
 
           <div>

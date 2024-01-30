@@ -18,7 +18,7 @@
 }
 
 .text button {
-    margin-right: 0.2em;
+    margin: 0.5em 0.2em 0 0;
     border: 1px solid #568C73;
     border-radius: 10px;
     padding: 4px;
