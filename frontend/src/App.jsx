@@ -22,7 +22,7 @@ function App() {
       <Header />
       <About lang={lang} />
       <Abilities lang={lang} />
-      <Projects />
+      <Projects lang={lang} />
       <Footer lang={lang} />
     </>
   )

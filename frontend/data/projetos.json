@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "nome": "Enxoval feito com React",
+        "desc": "Esse projeto consiste em um enxoval que roda na web, podendo ser acessado em diversos dispositivos. Para a página do projeto eu utilizei React, e a API foi feita utilizando o Node.js. A Aó faz a comunicação entre o banco de dados e a página.",
+        "site": "https://trousseau-project.netlify.app",
+        "codigo": "https://github.com/nicolaskleinaraujo/trousseau-project",
+        "img": ""
+    },
+    {
+        "id": 2,
+        "nome": "Login com Node.js",
+        "desc": "Tela de login desenvolvida utilizando o framework 'Express' no Node.js para o servidor, e o banco de dados do MongoDB para salvar os dados de usuario. O site e a estilização foram feitas utilizando HTML e CSS.",
+        "site": "#",
+        "codigo": "https://github.com/nicolaskleinaraujo/node-login",
+        "img": "./projects-photos/node-login-img.jpg"
+    },
+    {
+        "id": 3,
+        "nome": "Site Pomodoro",
+        "desc": "Site para estudos que usa o metodo 'Pomodoro'. Site desenvolvido utilizando HTML, CSS e JavaScript. O site consiste em um timer customizado para melhorar a efetividade do seu estudo e uma lista 'To-do' que ajuda na programação de tarefas.",
+        "site": "https://nicolaskleinaraujo.github.io/pomodoro-web/",
+        "codigo": "https://github.com/nicolaskleinaraujo/pomodoro-web",
+        "img": "./projects-photos/pomodoro-web-img.jpg"
+    },
+    {
+        "id": 4,
+        "nome": "To-do List com Python",
+        "desc": "Lista 'To-do' feita utilizando Python. A interface grafica foi feita utilizando a biblioteca 'PyQT' e o salvamento dos dados foi feito utilizando o 'Pandas' em um arquivo 'csv'. A lista 'To-do' facilita a programação de tarefas cotidianas.",
+        "site": "#",
+        "codigo": "https://github.com/nicolaskleinaraujo/todo-list",
+        "img": "./projects-photos/todo-list-img.jpg"
+    }
+]
