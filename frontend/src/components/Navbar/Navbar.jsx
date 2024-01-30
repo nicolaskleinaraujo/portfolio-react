@@ -22,7 +22,7 @@ const Navbar = ({ lang, setLang }) => {
           <img 
             src="./others/br-flag.png" 
             alt="Bandeira do Brasil" 
-            className={lang === "br" && styles.isActive} 
+            className={lang === "br" ? styles.isActive : null} 
             onClick={() => setLang("br")} 
           />
         </li>
@@ -30,7 +30,7 @@ const Navbar = ({ lang, setLang }) => {
           <img 
             src="./others/us-flag.png" 
             alt="Bandeira do EUA" 
-            className={lang === "en" && styles.isActive}
+            className={lang === "en" ? styles.isActive : null} 
             onClick={() => setLang("en")} 
           />
         </li>
