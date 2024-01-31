@@ -1,14 +1,17 @@
 // CSS
 import styles from "./Navbar.module.css"
 
-const Navbar = ({ lang, setLang }) => {
+const Navbar = ({ lang, setLang, aboutRef, abilitiesRef, projectsRef }) => {
   return (
     <nav className={styles.navbar}>
       <ul>
         {lang === "br" ? (
           <>
-            <li className={styles.not_img}>Sobre Mim</li>
-            <li className={styles.not_img}>Habilidades</li>
+            <li 
+              className={styles.not_img} 
+              onClick={() => aboutRef.current?.scrollIntoView({behavior: "smooth"})}>Sobre Mim</li>
+            <li 
+              className={styles.not_img} >Habilidades</li>
             <li className={styles.not_img}>Projetos</li>
           </>
         ) : (
