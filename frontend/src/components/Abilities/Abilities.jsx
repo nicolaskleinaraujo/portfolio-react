@@ -1,7 +1,10 @@
 // CSS
 import styles from "./Abilities.module.css"
 
-const Abilities = ({ lang }) => {
+// Modules
+import { forwardRef } from "react"
+
+const Abilities = forwardRef(({ lang }, ref) => {
   return (
     <div className={styles.abilities}>
         {lang === 'br' ? (
@@ -54,6 +57,6 @@ const Abilities = ({ lang }) => {
         </div>
     </div>
   )
-}
+})
 
 export default Abilities

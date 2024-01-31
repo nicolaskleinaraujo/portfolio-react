@@ -3,12 +3,13 @@ import styles from "./Projects.module.css"
 
 // Modules
 import { useEffect, useState } from "react"
+import { forwardRef } from "react"
 
 // Projects Data
 import brData from "../../../data/projetos.json"
 import enData from "../../../data/projects.json"
 
-const Projects = ({ lang }) => {
+const Projects = forwardRef(({ lang }) => {
   const [projects, setProjects] = useState([])
 
   useEffect(() => {
@@ -49,6 +50,6 @@ const Projects = ({ lang }) => {
       ))}
     </div>
   )
-}
+})
 
 export default Projects

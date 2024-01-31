@@ -1,9 +1,12 @@
 // CSS
 import styles from "./About.module.css"
 
-const About = ({ lang }) => {
+// Modules
+import { forwardRef } from "react"
+
+const About = forwardRef(({ lang }, ref) => {
   return (
-    <div>
+    <div ref={ref}>
         {lang === "br" ? (
             <>
                 <h2>Sobre Mim</h2>
@@ -53,6 +56,6 @@ const About = ({ lang }) => {
         </div>
     </div>
   )
-}
+})
 
 export default About
