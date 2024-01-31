@@ -2,23 +2,27 @@
 import styles from "./Navbar.module.css"
 
 const Navbar = ({ lang, setLang, aboutRef, abilitiesRef, projectsRef }) => {
+  const scrollTo = (componentRef, align) => {
+    componentRef.current.scrollIntoView({
+      behavior: "smooth",
+      block: `${align}`
+    })
+  }
+
   return (
     <nav className={styles.navbar}>
       <ul>
         {lang === "br" ? (
           <>
-            <li 
-              className={styles.not_img} 
-              onClick={() => aboutRef.current.scrollIntoView({behavior: "smooth"})}>Sobre Mim</li>
-            <li 
-              className={styles.not_img} >Habilidades</li>
-            <li className={styles.not_img}>Projetos</li>
+            <li className={styles.not_img} onClick={() => scrollTo(aboutRef, 'center')}>Sobre Mim</li>
+            <li className={styles.not_img} onClick={() => scrollTo(abilitiesRef, 'center')}>Habilidades</li>
+            <li className={styles.not_img} onClick={() => scrollTo(projectsRef, 'start')}>Projetos</li>
           </>
         ) : (
           <>
-            <li className={styles.not_img}>About Me</li>
-            <li className={styles.not_img}>Abilities</li>
-            <li className={styles.not_img}>Projects</li>
+            <li className={styles.not_img} onClick={() => scrollTo(aboutRef, 'center')}>About Me</li>
+            <li className={styles.not_img} onClick={() => scrollTo(abilitiesRef, 'center')}>Abilities</li>
+            <li className={styles.not_img} onClick={() => scrollTo(projectsRef, 'start')}>Projects</li>
           </>
         )}
         <li>
