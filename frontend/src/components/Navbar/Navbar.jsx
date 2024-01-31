@@ -9,7 +9,7 @@ const Navbar = ({ lang, setLang, aboutRef, abilitiesRef, projectsRef }) => {
           <>
             <li 
               className={styles.not_img} 
-              onClick={() => aboutRef.current?.scrollIntoView({behavior: "smooth"})}>Sobre Mim</li>
+              onClick={() => aboutRef.current.scrollIntoView({behavior: "smooth"})}>Sobre Mim</li>
             <li 
               className={styles.not_img} >Habilidades</li>
             <li className={styles.not_img}>Projetos</li>

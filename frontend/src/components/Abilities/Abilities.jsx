@@ -6,7 +6,7 @@ import { forwardRef } from "react"
 
 const Abilities = forwardRef(({ lang }, ref) => {
   return (
-    <div className={styles.abilities}>
+    <div className={styles.abilities} ref={ref}>
         {lang === 'br' ? (
           <>
             <h2>Habilidades</h2>

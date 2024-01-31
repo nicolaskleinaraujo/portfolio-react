@@ -9,7 +9,7 @@ import { forwardRef } from "react"
 import brData from "../../../data/projetos.json"
 import enData from "../../../data/projects.json"
 
-const Projects = forwardRef(({ lang }) => {
+const Projects = forwardRef(({ lang }, ref) => {
   const [projects, setProjects] = useState([])
 
   useEffect(() => {
@@ -21,7 +21,7 @@ const Projects = forwardRef(({ lang }) => {
   }, [lang])
 
   return (
-    <div>
+    <div ref={ref}>
       {lang === "br" ? (
         <>
           <h2>Projetos</h2>
