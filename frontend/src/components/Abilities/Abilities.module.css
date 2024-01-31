@@ -7,7 +7,7 @@
 .javascript, .python, .html_css {
     display: flex;
     background-color: #B5D991;
-    width: 35em;
+    max-width: 45em;
     margin: 1.5em auto;
     padding: 12px;
     border-radius: 20px;
