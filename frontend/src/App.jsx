@@ -1,6 +1,3 @@
-// CSS
-import './App.css'
-
 // Language Context
 import { useContext, useRef } from 'react'
 import { LangContext } from "./context/LangContext"
