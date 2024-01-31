@@ -1,6 +1,7 @@
 .header {
     display: flex;
     align-items: center;
+    justify-content: center;
     text-align: center;
     background-image: linear-gradient(to right bottom, #212226, #3E4F59, #568C73);
     height: 94vh;
