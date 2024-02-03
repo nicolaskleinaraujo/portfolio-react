@@ -38,3 +38,33 @@
 .isActive {
     background-color: #B5D991;
 }
+
+@media screen and (max-width: 767px) {
+    .navbar .not_img {
+        font-size: 0.8em;
+    }
+
+    .navbar img {
+        width: 1.7em;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .navbar .not_img {
+        font-size: 0.6em;
+    }
+
+    .navbar img {
+        width: 1.5em;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .navbar .not_img {
+        font-size: 0.4em;
+    }
+
+    .navbar img {
+        width: 1.3em;
+    }
+}
