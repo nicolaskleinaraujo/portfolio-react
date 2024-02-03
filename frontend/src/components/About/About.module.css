@@ -38,3 +38,23 @@
 .text {
     margin: auto 0 auto 5em;
 }
+
+@media screen and (max-width: 767px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .socials {
+        float: none;
+        margin: 0 auto 1.5em auto;
+    }
+
+    .socials img {
+        width: 250px;
+    }
+
+    .text {
+        font-size: 1.5em;
+        margin: 0 2em 0 3em;
+    }
+}
