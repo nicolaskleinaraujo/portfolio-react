@@ -24,7 +24,7 @@ function App() {
       <Header />
       <About ref={aboutRef} />
       <Abilities ref={abilitiesRef} />
-      <Projects lang={lang} ref={projectsRef} />
+      <Projects ref={projectsRef} />
       <Footer lang={lang} />
     </>
   )

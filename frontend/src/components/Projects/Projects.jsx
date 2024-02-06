@@ -2,14 +2,18 @@
 import styles from "./Projects.module.css"
 
 // Modules
-import { useEffect, useState } from "react"
+import { useContext, useEffect, useState } from "react"
 import { forwardRef } from "react"
+
+// Language Context
+import { LangContext } from "../../context/LangContext"
 
 // Projects Data
 import brData from "../../../data/projetos.json"
 import enData from "../../../data/projects.json"
 
-const Projects = forwardRef(({ lang }, ref) => {
+const Projects = forwardRef((props, ref) => {
+  const {lang} = useContext(LangContext)
   const [projects, setProjects] = useState([])
 
   useEffect(() => {
