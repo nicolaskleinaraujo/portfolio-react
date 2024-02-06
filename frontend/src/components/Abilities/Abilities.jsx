@@ -2,9 +2,14 @@
 import styles from "./Abilities.module.css"
 
 // Modules
-import { forwardRef } from "react"
+import { useContext, forwardRef } from "react"
 
-const Abilities = forwardRef(({ lang }, ref) => {
+// Language Context
+import { LangContext } from "../../context/LangContext"
+
+const Abilities = forwardRef((props, ref) => {
+  const {lang} = useContext(LangContext)
+
   return (
     <div className={styles.abilities} ref={ref}>
         {lang === 'br' ? (
