@@ -23,7 +23,7 @@ function App() {
       <Navbar aboutRef={aboutRef} abilitiesRef={abilitiesRef} projectsRef={projectsRef} />
       <Header />
       <About ref={aboutRef} />
-      <Abilities lang={lang} ref={abilitiesRef} />
+      <Abilities ref={abilitiesRef} />
       <Projects lang={lang} ref={projectsRef} />
       <Footer lang={lang} />
     </>
