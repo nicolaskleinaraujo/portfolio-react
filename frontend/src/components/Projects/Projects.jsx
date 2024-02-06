@@ -13,7 +13,7 @@ import brData from "../../../data/projetos.json"
 import enData from "../../../data/projects.json"
 
 const Projects = forwardRef((props, ref) => {
-  const {lang} = useContext(LangContext)
+  const { lang } = useContext(LangContext)
   const [projects, setProjects] = useState([])
 
   useEffect(() => {
