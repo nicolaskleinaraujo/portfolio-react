@@ -1,6 +1,15 @@
+// CSS
 import styles from "./Footer.module.css"
 
-const Footer = ({ lang }) => {
+// Modules
+import { useContext } from "react"
+
+// Language Context
+import { LangContext } from "../../context/LangContext"
+
+const Footer = () => {
+  const { lang } = useContext(LangContext)
+
   return (
     <footer className={styles.footer}>
         {lang === "br" ? (
