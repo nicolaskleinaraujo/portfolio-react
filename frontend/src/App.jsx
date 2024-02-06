@@ -1,6 +1,5 @@
-// Language Context
-import { useContext, useRef } from 'react'
-import { LangContext } from "./context/LangContext"
+// Modules
+import { useRef } from 'react'
 
 // Components
 import Navbar from "./components/Navbar/Navbar"
@@ -11,8 +10,6 @@ import Projects from './components/Projects/Projects'
 import Footer from './components/Footer/Footer'
 
 function App() {
-  const {lang, setLang} = useContext(LangContext)
-
   // The refs are used on the navbar component to scroll
   const aboutRef = useRef(null)
   const abilitiesRef = useRef(null)
