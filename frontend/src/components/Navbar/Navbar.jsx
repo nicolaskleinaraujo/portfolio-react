@@ -1,12 +1,14 @@
 // CSS
 import styles from "./Navbar.module.css"
 
-// Language Context
+// Modules
 import { useContext } from 'react'
+
+// Language Context
 import { LangContext } from "../../context/LangContext"
 
 const Navbar = ({ aboutRef, abilitiesRef, projectsRef }) => {
-  const {lang, setLang} = useContext(LangContext)
+  const { lang, setLang } = useContext(LangContext)
 
   const scrollTo = (componentRef, align) => {
     componentRef.current.scrollIntoView({
