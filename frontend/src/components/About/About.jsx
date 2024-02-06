@@ -1,14 +1,14 @@
 // CSS
 import styles from "./About.module.css"
 
-// Language Context
-import { LangContext } from "../../context/LangContext"
-
 // Modules
 import { useContext, forwardRef } from "react"
 
+// Language Context
+import { LangContext } from "../../context/LangContext"
+
 const About = forwardRef((props, ref) => {
-    const {lang} = useContext(LangContext)
+    const { lang } = useContext(LangContext)
     
     return (
         <div ref={ref}>
