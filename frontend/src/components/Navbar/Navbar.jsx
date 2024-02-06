@@ -1,7 +1,13 @@
 // CSS
 import styles from "./Navbar.module.css"
 
-const Navbar = ({ lang, setLang, aboutRef, abilitiesRef, projectsRef }) => {
+// Language Context
+import { useContext } from 'react'
+import { LangContext } from "../../context/LangContext"
+
+const Navbar = ({ aboutRef, abilitiesRef, projectsRef }) => {
+  const {lang, setLang} = useContext(LangContext)
+
   const scrollTo = (componentRef, align) => {
     componentRef.current.scrollIntoView({
       behavior: "smooth",

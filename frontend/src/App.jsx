@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      <Navbar lang={lang} setLang={setLang} aboutRef={aboutRef} abilitiesRef={abilitiesRef} projectsRef={projectsRef} />
+      <Navbar aboutRef={aboutRef} abilitiesRef={abilitiesRef} projectsRef={projectsRef} />
       <Header />
       <About lang={lang} ref={aboutRef} />
       <Abilities lang={lang} ref={abilitiesRef} />
