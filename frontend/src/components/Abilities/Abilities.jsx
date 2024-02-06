@@ -8,7 +8,7 @@ import { useContext, forwardRef } from "react"
 import { LangContext } from "../../context/LangContext"
 
 const Abilities = forwardRef((props, ref) => {
-  const {lang} = useContext(LangContext)
+  const { lang } = useContext(LangContext)
 
   return (
     <div className={styles.abilities} ref={ref}>
