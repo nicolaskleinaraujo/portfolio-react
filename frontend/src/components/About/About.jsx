@@ -36,7 +36,6 @@ const About = forwardRef((props, ref) => {
                         </li>
                         <li><a href="https://github.com/nicolaskleinaraujo/" target="_blank">Github</a></li>
                         <li><a href="https://www.linkedin.com/in/nicolaskleinaraujo/" target="_blank">Linkedin</a></li>
-                        <li><a href="https://wa.me/5544997666224" target="_blank">Whatsapp</a></li>
                         <li>contatonkfa@gmail.com</li>
                         <li>+55 44 99766-6224</li>
                     </ul>
