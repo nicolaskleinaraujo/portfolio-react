@@ -27,7 +27,13 @@ const About = forwardRef((props, ref) => {
                 <div className={styles.socials}>
                     <img src="./others/my-photo.jpg" alt="Minha foto" />
                     <ul>
-                        <li><a href="./others/curriculo.pdf" target="_blank">TESTE</a></li>
+                        <li>
+                            {lang === "br" ? (
+                                <a href="./others/curriculo.pdf" target="_blank">Currículo</a>
+                            ) : (
+                                <a href="./others/curriculo.pdf" target="_blank">Curriculum</a>
+                            )}
+                        </li>
                         <li><a href="https://github.com/nicolaskleinaraujo/" target="_blank">Github</a></li>
                         <li><a href="https://www.linkedin.com/in/nicolaskleinaraujo/" target="_blank">Linkedin</a></li>
                         <li><a href="https://wa.me/5544997666224" target="_blank">Whatsapp</a></li>
