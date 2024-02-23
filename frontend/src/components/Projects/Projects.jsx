@@ -42,9 +42,9 @@ const Projects = forwardRef((props, ref) => {
             <h3>{project.name}</h3>
             <p>{project.desc}</p>
             {project.link1 &&
-              <button><a href={project.link1} target="blank">{project.btn1}</a></button>
+              <button><a href={project.link1} target="_blank">{project.btn1}</a></button>
             }
-            <button><a href={project.link2} target="blank">{project.btn2}</a></button>
+            <button><a href={project.link2} target="_blank">{project.btn2}</a></button>
           </div>
 
           <div>
