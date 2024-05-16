@@ -1,6 +1,17 @@
 [
     {
         "id": 1,
+        "name": "Shop made with React and Node.js",
+        "desc": "This project is a shop that let users create requests, manage items and use many more features. In order to use admin features, please use the following account: email: 'admin@gmail.com', password: '12345'. The authentication occurs on the middleware, using HTTPOnly Signed Cookies and JWT.",
+        "link1": "https://nk-shop-project.netlify.app",
+        "btn1": "See site",
+        "link2": "https://github.com/nicolaskleinaraujo/shop-project",
+        "btn2": "See code",
+        "img": "./projects-photos/shop-img.PNG"
+    },
+
+    {
+        "id": 2,
         "name": "Blog made in React and Node.js",
         "desc": "This project is a blog that allows users to create, delete, update and read articles. Authentication occurs in the middleware, using JWT Token and LocalStorage. The API communicates between the web page and the database that stores all the data.",
         "link1": "https://nk-blog-project.netlify.app",
@@ -9,8 +20,9 @@
         "btn2": "See code",
         "img": "./projects-photos/blog-img.png"
     },
+
     {
-        "id": 2,
+        "id": 3,
         "name": "Trousseau made with React",
         "desc": "This project is a trousseau that runs on the web and can be easily accessed on many devices. For the web page I used React and the API was made using Node.js. The API makes the communication between the web page and the database that stores all the data.",
         "link1": "https://trousseau-project.netlify.app",
@@ -19,14 +31,7 @@
         "btn2": "See code",
         "img": "./projects-photos/trousseau-img.jpg"
     },
-    {
-        "id": 3,
-        "name": "Login Page With Node.js",
-        "desc": "Login screen developed using the framework 'Express' in Node.js for the server and the database of MongoDB to save user data. The website and styling were done using HTML and CSS.",
-        "link2": "https://github.com/nicolaskleinaraujo/node-login",
-        "btn2": "See code",
-        "img": "./projects-photos/node-login-img.jpg"
-    },
+
     {
         "id": 4,
         "name": "Pomodoro Website",
@@ -37,6 +42,7 @@
         "btn2": "See code",
         "img": "./projects-photos/pomodoro-web-img.jpg"
     },
+    
     {
         "id": 5,
         "name": "To-do List With Python",
