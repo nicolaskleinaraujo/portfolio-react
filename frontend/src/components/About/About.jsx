@@ -45,8 +45,8 @@ const About = forwardRef((props, ref) => {
                     <ul>
                         {lang === "br" ? (
                             <>
-                                <li>Meu nome é <strong>Nicolas Klein</strong> e tenho 17 anos.</li>
-                                <li>Nasci e <strong>Moro em Mariná</strong>.</li>
+                                <li>Meu nome é <strong>Nicolas Klein</strong> e tenho 18 anos.</li>
+                                <li>Moro em <strong>Taboão da Serra - SP</strong>.</li>
                                 <li>Possuo <strong>proficiencia em inglês</strong>.</li>
                                 <li>Estou <strong>cursando Análise e Desenvolvimento de Sistemas</strong>.</li>
                                 <li>A principal linguagem que utilizo é o <strong>JavaScript</strong>.</li>
@@ -54,7 +54,7 @@ const About = forwardRef((props, ref) => {
                             </>
                         ) : (
                             <>
-                                <li>My name is <strong>Nicolas Klein</strong> and I am 17 years old.</li>
+                                <li>My name is <strong>Nicolas Klein</strong> and I am 18 years old.</li>
                                 <li>I was born and <strong>live in Brazil</strong>.</li>
                                 <li>I have <strong>proficiency in english</strong>.</li>
                                 <li>I'm <strong>studying Systems Analysis and Development</strong>.</li>
