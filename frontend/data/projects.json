@@ -1,6 +1,17 @@
 [
     {
         "id": 1,
+        "name": "Fullstack Clothing Shop",
+        "desc": "This project is a clothing shop that let users buy and pay for they purchases. In order to use admin features, please use the following account: email: 'admin@gmail.com', password: '12345'. For the frontend I used React and the backend was made using Node.js. The payment is made using MercadoPago.",
+        "link1": "https://klein-store.nkportfolio.tech",
+        "btn1": "See site",
+        "link2": "https://github.com/nicolaskleinaraujo/clothing-project",
+        "btn2": "See code",
+        "img": "./projects-photos/clothing-img.png"
+    },
+
+    {
+        "id": 2,
         "name": "Shop made with React and Node.js",
         "desc": "This project is a shop that let users create requests, manage items and use many more features. In order to use admin features, please use the following account: email: 'admin@gmail.com', password: '12345'. The authentication occurs on the middleware, using HTTPOnly Signed Cookies and JWT.",
         "link1": "https://nk-shop-project.netlify.app",
@@ -11,7 +22,7 @@
     },
 
     {
-        "id": 2,
+        "id": 3,
         "name": "Blog made in React and Node.js",
         "desc": "This project is a blog that allows users to create, delete, update and read articles. Authentication occurs in the middleware, using JWT Token and LocalStorage. The API communicates between the web page and the database that stores all the data.",
         "link1": "https://nk-blog-project.netlify.app",
@@ -19,17 +30,6 @@
         "link2": "https://github.com/nicolaskleinaraujo/blog-project",
         "btn2": "See code",
         "img": "./projects-photos/blog-img.png"
-    },
-
-    {
-        "id": 3,
-        "name": "Trousseau made with React",
-        "desc": "This project is a trousseau that runs on the web and can be easily accessed on many devices. For the web page I used React and the API was made using Node.js. The API makes the communication between the web page and the database that stores all the data.",
-        "link1": "https://trousseau-project.netlify.app",
-        "btn1": "See site",
-        "link2": "https://github.com/nicolaskleinaraujo/trousseau-project",
-        "btn2": "See code",
-        "img": "./projects-photos/trousseau-img.jpg"
     },
 
     {
