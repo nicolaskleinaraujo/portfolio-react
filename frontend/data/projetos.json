@@ -12,6 +12,17 @@
 
     {
         "id": 2,
+        "name": "Contagem Regressiva com TypeScript",
+        "desc": "Este projeto é um aplicativo de contagem regressiva que permite aos usuários criar páginas personalizadas e compartilhar com seus amigos. Dentro desta página você pode criar eventos e escolher uma música do Spotify para personalizar sua página. Para o frontend utilizei React e o Backend foi feito em Node.js com TypeScript.",
+        "link1": "https://countdown.nkportfolio.tech",
+        "btn1": "Ver site",
+        "link2": "https://github.com/nicolaskleinaraujo/countdown",
+        "btn2": "Ver código",
+        "img": "./projects-photos/countdown-img.png"
+    },
+
+    {
+        "id": 3,
         "name": "Loja feita com React e Node.js",
         "desc": "Este projeto é uma loja que permite aos usuários criar pedidos, gerenciar itens e utilizar muitos outros recursos. Para usar os recursos de admin, use a seguinte conta: email: 'admin@gmail.com', senha: '12345'. A autenticação ocorre no middleware, utilizando HTTPOnly Signed Cookies e JWT.",
         "link1": "https://nk-shop-project.netlify.app",
@@ -22,7 +33,7 @@
     },
 
     {
-        "id": 3,
+        "id": 4,
         "name": "Blog em React e Node.js",
         "desc": "Este projeto é um blog que permite aos usuários criar, excluir, atualizar e ler artigos. A autenticação ocorre no middleware, utilizando JWT Token e LocalStorage. A API faz a comunicação entre a página web e o banco de dados que armazena todos os dados.",
         "link1": "https://nk-blog-project.netlify.app",
@@ -30,17 +41,6 @@
         "link2": "https://github.com/nicolaskleinaraujo/blog-project",
         "btn2": "Ver código",
         "img": "./projects-photos/blog-img.png"
-    },
-
-    {
-        "id": 4,
-        "name": "Site Pomodoro",
-        "desc": "Site para estudos que usa o metodo 'Pomodoro'. Site desenvolvido utilizando HTML, CSS e JavaScript. O site consiste em um timer customizado para melhorar a efetividade do seu estudo e uma lista 'To-do' que ajuda na programação de tarefas.",
-        "link1": "https://nicolaskleinaraujo.github.io/pomodoro-web/",
-        "btn1": "Ver site",
-        "link2": "https://github.com/nicolaskleinaraujo/pomodoro-web",
-        "btn2": "Ver código",
-        "img": "./projects-photos/pomodoro-web-img.jpg"
     },
 
     {
