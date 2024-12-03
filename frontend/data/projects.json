@@ -1,6 +1,17 @@
 [
     {
         "id": 1,
+        "name": "Automatic Newsletter Sender for Kindle",
+        "desc": "This API downloads an e-mail through an IMAP server and converts it into an EPUB file. The EPUB file is send to your 'Send to Kindle' account, which can be read through an Kindle device. The frontend basically shows the step-by-step guide on how to set up your Kindle account. The Cron Job is set up to run every day at 12pm.",
+        "link1": "https://node-automail.nkportfolio.tech",
+        "btn1": "See site",
+        "link2": "https://github.com/nicolaskleinaraujo/node-automail",
+        "btn2": "See code",
+        "img": "./projects-photos/automailer-img.png"
+    },
+
+    {
+        "id": 2,
         "name": "Fullstack Clothing Shop",
         "desc": "This project is a clothing shop that let users buy and pay for they purchases. In order to use admin features, please use the following account: email: 'admin@gmail.com', password: '12345'. For the frontend I used React and the backend was made using Node.js. The payment is made using MercadoPago.",
         "link1": "https://klein-store.nkportfolio.tech",
@@ -11,7 +22,7 @@
     },
 
     {
-        "id": 2,
+        "id": 3,
         "name": "Countdown Site Using TypeScript",
         "desc": "This project is a countdown app, that let users create custom pages and share with their friends. Inside this page you can create events and pick a music from Spotify to customize your page. For the frontend I used React and the Backend was made using Node.js with TypeScript.",
         "link1": "https://countdown.nkportfolio.tech",
@@ -22,7 +33,7 @@
     },
 
     {
-        "id": 3,
+        "id": 4,
         "name": "Shop made with React and Node.js",
         "desc": "This project is a shop that let users create requests, manage items and use many more features. In order to use admin features, please use the following account: email: 'admin@gmail.com', password: '12345'. The authentication occurs on the middleware, using HTTPOnly Signed Cookies and JWT.",
         "link1": "https://nk-shop-project.netlify.app",
@@ -32,17 +43,6 @@
         "img": "./projects-photos/shop-img.PNG"
     },
 
-    {
-        "id": 4,
-        "name": "Blog made in React and Node.js",
-        "desc": "This project is a blog that allows users to create, delete, update and read articles. Authentication occurs in the middleware, using JWT Token and LocalStorage. The API communicates between the web page and the database that stores all the data.",
-        "link1": "https://nk-blog-project.netlify.app",
-        "btn1": "See site",
-        "link2": "https://github.com/nicolaskleinaraujo/blog-project",
-        "btn2": "See code",
-        "img": "./projects-photos/blog-img.png"
-    },
-    
     {
         "id": 5,
         "name": "To-do List With Python",
