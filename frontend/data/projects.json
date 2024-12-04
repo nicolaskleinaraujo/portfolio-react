@@ -36,7 +36,7 @@
         "id": 4,
         "name": "Shop made with React and Node.js",
         "desc": "This project is a shop that let users create requests, manage items and use many more features. In order to use admin features, please use the following account: email: 'admin@gmail.com', password: '12345'. The authentication occurs on the middleware, using HTTPOnly Signed Cookies and JWT.",
-        "link1": "https://nk-shop-project.netlify.app",
+        "link1": "https://shop-project.nkportfolio.tech",
         "btn1": "See site",
         "link2": "https://github.com/nicolaskleinaraujo/shop-project",
         "btn2": "See code",

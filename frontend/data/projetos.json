@@ -36,7 +36,7 @@
         "id": 4,
         "name": "Loja feita com React e Node.js",
         "desc": "Este projeto é uma loja que permite aos usuários criar pedidos, gerenciar itens e utilizar muitos outros recursos. Para usar os recursos de admin, use a seguinte conta: email: 'admin@gmail.com', senha: '12345'. A autenticação ocorre no middleware, utilizando HTTPOnly Signed Cookies e JWT.",
-        "link1": "https://nk-shop-project.netlify.app",
+        "link1": "https://shop-project.nkportfolio.tech",
         "btn1": "Ver site",
         "link2": "https://github.com/nicolaskleinaraujo/shop-project",
         "btn2": "Ver código",
