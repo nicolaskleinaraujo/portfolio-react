@@ -31,7 +31,7 @@ const About = forwardRef((props, ref) => {
                             {lang === "br" ? (
                                 <a href="./others/curriculo.pdf" target="_blank">Currículo</a>
                             ) : (
-                                <a href="./others/curriculo.pdf" target="_blank">Curriculum</a>
+                                <a href="./others/curriculo.pdf" target="_blank">Resume</a>
                             )}
                         </li>
                         <li><a href="https://github.com/nicolaskleinaraujo/" target="_blank">Github</a></li>
