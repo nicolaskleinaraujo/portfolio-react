@@ -45,20 +45,20 @@ const About = forwardRef((props, ref) => {
                     <ul>
                         {lang === "br" ? (
                             <>
-                                <li>Meu nome é <strong>Nicolas Klein</strong> e tenho 18 anos.</li>
+                                <li>Meu nome é <strong>Nicolas Klein</strong> e tenho 19 anos.</li>
                                 <li>Moro em <strong>Taboão da Serra - SP</strong>.</li>
                                 <li>Possuo <strong>proficiencia em inglês</strong>.</li>
                                 <li>Estou <strong>cursando Análise e Desenvolvimento de Sistemas</strong>.</li>
-                                <li>A principal linguagem que utilizo é o <strong>JavaScript</strong>.</li>
+                                <li>A principal linguagem que utilizo é o <strong>JavaScript / TypeScript</strong>.</li>
                                 <li>Estudo <strong>desenvolvimento web</strong>, utilizo tecnologias como: <strong>Node.js e React</strong>.</li>
                             </>
                         ) : (
                             <>
-                                <li>My name is <strong>Nicolas Klein</strong> and I am 18 years old.</li>
+                                <li>My name is <strong>Nicolas Klein</strong> and I am 19 years old.</li>
                                 <li>I was born and <strong>live in Brazil</strong>.</li>
                                 <li>I have <strong>proficiency in english</strong>.</li>
                                 <li>I'm <strong>studying Systems Analysis and Development</strong>.</li>
-                                <li>The main language I use is <strong>JavaScript</strong>.</li>
+                                <li>The main language I use is <strong>JavaScript / TypeScript</strong>.</li>
                                 <li>I study <strong>web development</strong>, I use technologies such as: <strong>Node.js and React</strong>.</li>
                             </>
                         )}
